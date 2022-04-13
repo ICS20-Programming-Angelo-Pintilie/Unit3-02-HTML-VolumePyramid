@@ -8,7 +8,7 @@
 
 
 /**
- * This function calculates area of pyramid
+ * This function calculates volume of trapezoid.
  */
 function buttonClicked () {
   // get user input
@@ -16,9 +16,9 @@ function buttonClicked () {
   let sideB = parseFloat(document.getElementById('sideB').value)
   let height = parseFloat(document.getElementById('height').value)
 
-  // calculate the area of pyramid
-  let area = (sideA + sideB) / 2 * height
+  // calculate the volume of trapezoid
+  let volume = sideA * sideB * height / 6
 
   // display the results
-  document.getElementById('area').innerHTML = "The Area of the Trapezoid would be " + area.toFixed(2) + "cm³"
+  document.getElementById('volume').innerHTML = "The Volume of a Pyramid would be " + volume.toFixed(2) + "cm³"
 }

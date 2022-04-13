@@ -4,40 +4,41 @@
     <meta charset="utf-8">
     <meta name="description" content="User Input, with JavaScript">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Angelo Pintilie">
+    <meta name="author" content="PJ Lobetti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
-    <link rel="manifest" href="./fav/site.webmanifest">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-yellow.min.css" />
+    <link rel="manifest" href="./fav/site.webmanifest"
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Calculating The Area of a Trapezoid, with JS</title>
+    <title>Calculating The Volume of a Pyramid, with JS</title>
   </head>
   <body>
     <script src="./js/script.js"></script>
-    <h1>Calculating The Area of a Trapezoid, with JS</h1>
+    <h1>Calculating The Volume of a Pyramid, with JS</h1>
     <p>
-      <h3>Please enter the dimensions of your Trapezoid:</h3>
+      <h3>Please enter the dimensions of your Pyramid:</h3>
       <form action="javascript:buttonClicked()">
         <label for="sideA">Side a:</label>
-        <input type="number" step="any" id="sideA" placeholder="base (cm)"><br><br>
+        <input type="number" step="any" id="sideA" placeholder="side a (cm)"><br><br>
         
         <label for="sideB">Side b: </label>
-        <input type="number" step="any" id="sideB" placeholder="base 2 (cm)"><br><br>
+        <input type="number" step="any" id="sideB" placeholder="side b (cm)"><br><br>
 
         <label for="height">Height: </label>
         <input type="number" step="any" id="height" placeholder="height (cm)"><br><br>
         <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-  Calculate
+  Calculate Volume
           </button>
       </form>
     </p>
 		<!-- Create a space where the user information will be displayed -->
 		<div id="display-results">
-    	<div id="area"></div>
+    	<div id="volume"></div>
 		</div>
-     <center><img src="./images/calc.png" alt="calculator"></center>
+      </form>
+    </p>
   </body>
-</html>
+  </html>
